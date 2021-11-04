@@ -1,0 +1,55 @@
+<H1> Create a new Product ! </H1>
+
+<div class="container">
+            
+    <form  action="/products" method="POST">
+        <div class="mb-3">
+            <label for="ProID" class="form-label">Product ID:</label>
+            <input type="text" class="form-control" id="ProID" name="ProID">
+        </div>
+        <div class="mb-3">
+            <label for="ProName" class="form-label">Product Name:</label>
+            <input type="text" class="form-control" id="ProName" name="ProName">
+        </div>
+        <div class="mb-3">
+            <label for="Img_link" class="form-label">Upload image link:</label>
+            <input type="text" class="form-control" id="Img_link" name="Img_link">
+        </div>
+        <div class="mb-3">
+            <label for="Price" class="form-label">Price:</label>
+            <input type="number" class="form-control" id="Price" name="Price" >
+        </div>
+        <div class="mb-3">
+            <label for="Warranty" class="form-label">Warranty (months):</label>
+            <input type="number" class="form-control" value="1" id="Warranty" name="Warranty">
+        </div>
+        <div class="mb-3">
+            <label for="ProDes" class="form-label">Product description:</label>
+            <input type="text" class="form-control" id="ProDes" name="ProDes" >
+        </div>
+        <div class="mb-3">
+            <label for="Category" class="form-label">Category:</label>
+            <input type="text" class="form-control" id="Category" name="Category" >
+        </div>
+        <div class="mb-3">
+            <label for="Manufacturer" class="form-label">Manufacturer:</label>
+            <input type="text" class="form-control" id="Manufacturer" name="Manufacturer">
+        </div>
+        <div class="mb-3">
+            <label for="Year_Of_Manufacture" class="form-label">Year Of Manufacture: </label>
+            <input type="number" class="form-control" id="Year_Of_Manufacture" name="Year_Of_Manufacture">
+        </div>
+        <div class="mb-3">
+            <label for="Model" class="form-label">Model: </label>
+            <input type="text" class="form-control" id="Model" name="Model">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+
+
+  
+</div>
+
+
+

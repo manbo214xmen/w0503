@@ -1,0 +1,4 @@
+Notes:
+	npm init 
+	npm  i --S express hbs  mongodb  mongoose    body-parser
+
